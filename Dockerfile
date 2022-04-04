@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM arm32v7/ubuntu:latest
 
 ARG DEBIAN_FRONTEND=noninteractive
 ENV TZ=US/Eastern
